@@ -4,10 +4,9 @@ namespace App;
 
 class 001sum
 {
-    public function
+    //la clase debe llamarse igual que nombre de archivo
+    public function sum($a, $b) {
+    return $a + $b;
+    }
 }
 
-
-function multiply($a, $b) {
-    return $a * $b;
-}
